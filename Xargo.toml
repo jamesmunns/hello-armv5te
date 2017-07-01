@@ -1,0 +1,2 @@
+[target.armv5te-unknown-linux-gnueabi-osatomic.dependencies]
+std = {features = ["panic_abort", "force_alloc_system"]}

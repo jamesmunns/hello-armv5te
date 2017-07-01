@@ -1,0 +1,9 @@
+# NOTE: You must have the following binaries in your path. If you don't have this,
+#   you can add them with the following command:
+#
+#  export PATH=/path/to/cross/gcc:$PATH
+
+export HOST=x86_64-unknown-linux-gnu
+export CC_armv5te_unknown_linux_gnueabi_osatomic=arm-buildroot-linux-gnueabi-gcc
+export LD_armv5te_unknown_linux_gnueabi_osatomic=arm-buildroot-linux-gnueabi-ld
+export CFLAGS_armv5te_unknown_linux_gnueabi_osatomic="-Wall -Os -fPIC -D__arm__ -mfloat-abi=soft"
