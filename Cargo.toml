@@ -8,5 +8,6 @@ authors = ["James Munns <james.munns@gmail.com>"]
 [profile.release]
 panic = "abort"
 
-[profile.debug]
+[profile.dev]
+debug = true
 panic = "abort"

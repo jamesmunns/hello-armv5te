@@ -5,7 +5,6 @@ on it from `std`.
 
 ## Current unknowns/issues
 
-* Will only compile in `release` mode
 * Uses `alloc_system` rather than `jemalloc`
 * Uses `abort=panic` rather than `unwind`
 * Dependency crates should work, however I already ran into some issues with `openssl-sys`...
@@ -27,6 +26,10 @@ on it from `std`.
 ```bash
 cd hello-armv5te
 source ./env_file
+
+xargo build
+file target/armv5te-unknown-linux-gnueabi-osatomic/debug/armv5te_demo
+
 xargo build --release
-file target/armv5te-unknown-linux-gnueabi-osatomic/release/hello-gateway
+file target/armv5te-unknown-linux-gnueabi-osatomic/release/armv5te_demo
 ```
