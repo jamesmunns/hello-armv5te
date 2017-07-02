@@ -1,5 +1,5 @@
 [target.armv5te-unknown-linux-gnueabi-osatomic]
-linker = "arm-buildroot-linux-gnueabi-gcc"
+linker = "arm-linux-gnueabi-gcc"
 
 [build]
 target = "armv5te-unknown-linux-gnueabi-osatomic"

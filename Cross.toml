@@ -1,0 +1,3 @@
+[target.armv5te-unknown-linux-gnueabi-osatomic]
+image = "tmpcross:latest"
+xargo = true
